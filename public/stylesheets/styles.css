@@ -1,0 +1,72 @@
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0 2em 2em;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+h1 {
+  font-size: 240%;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 140%;
+}
+
+h2 span {
+  font-size: 70%;
+  font-weight: normal;
+}
+
+input {
+  font-size: 100%;
+}
+
+input[type="password"], input[type="text"] {
+  border-radius: 4px;
+  border: 1px solid #999;
+  padding: 2px 4px 2px;
+}
+
+input[type="submit"] {
+  margin-left: 83px;
+}
+
+.notice {
+  background-color: #999;
+  border-radius: 6px;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+  padding: 5px 8px 5px;
+}
+
+.password {
+  margin-right: 10px;
+}
+
+.username {
+  margin-right: 8px;
+}
