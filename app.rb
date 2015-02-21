@@ -10,10 +10,6 @@ use Rack::Session::Pool, expire_after: TEN_MINUTES # Expire sessions after ten m
 helpers Authentication
 
 helpers do
-  def h(text)
-    Rack::Utils.escape_html(text)
-  end
-  
   def redirect_to_original_request
     user = session[:user]
     flash[:notice] = "Welcome back #{user.name}."
