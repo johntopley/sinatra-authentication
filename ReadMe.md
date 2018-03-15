@@ -14,7 +14,7 @@ Running
 -------
 To run the application in development use:
 
- `ruby webapp/app.rb`
+ `ruby app.rb`
 
 and access using [http://localhost:4567](http://localhost:4567)
 
